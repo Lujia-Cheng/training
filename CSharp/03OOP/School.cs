@@ -15,6 +15,7 @@ public interface IPersonService
 public interface IStudentService : IPersonService
 {
     double CalculateGPA();
+
     void EnrollInCourse(Course course);
 }
 
